@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "next"
+    "dev": "next -p 3060"      
   },
   "author": "kimnanum",
   "license": "ISC",
@@ -12,8 +12,12 @@
     "@ant-design/icons": "^5.0.1",
     "antd": "^5.4.7",
     "next": "^9.5.5",
+    "next-redux-wrapper": "^8.1.0",
     "prop-types": "^15.8.1",
-    "styled-components": "^5.3.9"
+    "react-redux": "^8.0.5",
+    "redux": "^4.2.1",
+    "redux-devtools-extension": "^2.13.9",
+    "styled-components": "^5.3.10"
   },
   "devDependencies": {
     "eslint": "^8.38.0",
@@ -22,3 +26,7 @@
     "eslint-plugin-react-hooks": "^4.6.0"
   }
 }
+
+
+
+
